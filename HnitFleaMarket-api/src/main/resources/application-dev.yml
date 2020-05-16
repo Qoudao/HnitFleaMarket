@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:                                           # 数据源的相关配置
+    url: jdbc:mysql://101.132.79.168:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    password: 12345
+  redis:
+    # Redis 单机单实例
+    database: 0
+    host: 101.132.79.168
+    port: 6379
+    password: 12345
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
