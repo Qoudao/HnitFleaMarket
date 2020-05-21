@@ -25,6 +25,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.hnitacm</groupId>
+            <artifactId>HnitFleaMarket-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 

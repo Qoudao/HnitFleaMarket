@@ -14,4 +14,5 @@ import org.hnitacm.pojo.UserInfo;
  */
 public interface UserInfoService extends IService<UserInfo> {
 
+    public boolean queryUsernameIsExist(String username);
 }

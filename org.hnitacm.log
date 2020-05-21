@@ -1,0 +1,26 @@
+2020-05-22 01:05:27 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-22 01:05:38 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2020-05-22 01:05:39 INFO  Application:50 - Starting Application on MacBookAir.local with PID 46847 (/Users/leo/IdeaProjects/HnitFleaMarket/HnitFleaMarket-api/target/classes started by leo in /Users/leo/IdeaProjects/HnitFleaMarket)
+2020-05-22 01:05:39 INFO  Application:679 - The following profiles are active: dev
+2020-05-22 01:05:40 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-22 01:05:40 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-22 01:05:40 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'addressInfoMapper' and 'org.hnitacm.mapper.AddressInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'evaluationInfoMapper' and 'org.hnitacm.mapper.EvaluationInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'goodInfoMapper' and 'org.hnitacm.mapper.GoodInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'goodTypeMapper' and 'org.hnitacm.mapper.GoodTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'orderInfoMapper' and 'org.hnitacm.mapper.OrderInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'sellerInfoMapper' and 'org.hnitacm.mapper.SellerInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'talkInfoMapper' and 'org.hnitacm.mapper.TalkInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - Skipping MapperFactoryBean with name 'userInfoMapper' and 'org.hnitacm.mapper.UserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-22 01:05:41 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.hnitacm.mapper]' package. Please check your configuration.
+2020-05-22 01:05:41 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7ea45fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-22 01:05:41 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2020-05-22 01:05:42 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 2905 ms
+2020-05-22 01:05:42 WARN  TableInfoHelper:296 - Warn: Could not find @TableId in Class: org.hnitacm.pojo.TalkInfo.
+2020-05-22 01:05:44 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-22 01:05:44 INFO  DocumentationPluginsBootstrapper:84 - Context refreshed
+2020-05-22 01:05:44 INFO  DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2020-05-22 01:05:44 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2020-05-22 01:05:45 INFO  TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path '/fleamarket'
+2020-05-22 01:05:45 INFO  Application:59 - Started Application in 6.487 seconds (JVM running for 7.801)
