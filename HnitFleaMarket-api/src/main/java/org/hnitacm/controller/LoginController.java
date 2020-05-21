@@ -65,6 +65,7 @@ public class LoginController {
         if (!password.equals(confirmPassword)) {
             return JSONResult.errorMsg("两次密码输入不一致");
         }
+        //TODO 对手机号进行验证
         UserInfo userResult = userInfoService.createUser(userBO);
         CookieUtils.setCookie(request, response, "userInfo", JsonUtils.objectToJson(userResult), true);
         return JSONResult.ok(userResult);

@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:                                           # 数据源的相关配置
-    url: jdbc:mysql://101.132.79.168:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    url: jdbc:mysql://101.132.79.168:3306/flea_market?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     password: 12345
   redis:
     # Redis 单机单实例
