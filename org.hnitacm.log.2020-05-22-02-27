@@ -1,0 +1,20 @@
+2020-05-22 02:27:00 WARN  TableInfoHelper:296 - Warn: Could not find @TableId in Class: org.hnitacm.pojo.TalkInfo.
+2020-05-22 02:27:00 WARN  AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'userInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userInfoServiceImpl': Unsatisfied dependency expressed through field 'sid'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.n3r.idworker.Sid' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-22 02:27:00 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sid in org.hnitacm.service.impl.UserInfoServiceImpl required a bean of type 'org.n3r.idworker.Sid' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.n3r.idworker.Sid' in your configuration.
+

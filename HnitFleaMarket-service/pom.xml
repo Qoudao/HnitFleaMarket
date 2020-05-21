@@ -17,6 +17,12 @@
             <artifactId>HnitFleaMarket-mapper</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.hnitacm</groupId>
+            <artifactId>HnitFleaMarket-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>

@@ -26,11 +26,10 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors
-                        .basePackage("org.hnitacm.controller"))
+                .apis(RequestHandlerSelectors.basePackage("org.hnitacm.controller"))
                 .paths(PathSelectors.any())
                 .build();
-
+        //TODO swagger2扫描不到接口
 
     }
 

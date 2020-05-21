@@ -3,6 +3,7 @@ package org.hnitacm.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.hnitacm.pojo.UserInfo;
+import org.hnitacm.pojo.bo.UserBO;
 
 /**
  * <p>
@@ -15,4 +16,6 @@ import org.hnitacm.pojo.UserInfo;
 public interface UserInfoService extends IService<UserInfo> {
 
     public boolean queryUsernameIsExist(String username);
+
+    public UserInfo createUser(UserBO userBo);
 }
